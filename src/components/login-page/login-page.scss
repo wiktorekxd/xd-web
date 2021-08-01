@@ -1,0 +1,40 @@
+@import "../../colors.scss";
+
+.login-land-page {
+  .login-ctn {
+    margin: auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: $light-background-color;
+    border-radius: 20px;
+
+    .register,
+    .login {
+      .form-field {
+        margin: 15px 0;
+        display: flex;
+        flex-direction: column;
+
+        .validation-msg {
+          color: $color-red-500
+        }
+      }
+
+      .switch-form {
+        button {
+          font-size: 0.6rem;
+          font-weight: 500;
+        }
+      }
+
+      .cofirmation-button {
+        display: flex;
+        flex-direction: row-reverse;
+
+        button {
+          font-size: 1.15rem;
+        }
+      }
+    }
+  }
+}

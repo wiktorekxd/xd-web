@@ -1,0 +1,18 @@
+.billboard{
+    margin-left: 20px;
+    width: 35%;
+    .description{
+        margin-top: 0;
+        font-size: 1.2em;
+    }
+    .headline-img{
+        width: 100%;
+    }
+    .btn-ctn{
+        display: flex;
+        justify-content: space-around;
+        button{
+            font-size: 1.2em;
+        }
+    }
+}
